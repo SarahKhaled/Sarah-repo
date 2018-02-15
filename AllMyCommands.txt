@@ -1,0 +1,41 @@
+cd Desktop/Individual
+
+a)git init
+
+b),e)git add Control.txt
+git commit -m "I added control.txt file"
+git add branches.txt
+git commit -m "I added branches.txt file"
+git add workflows.txt
+git commit -m "I added workflows.txt file" 
+
+git status
+
+
+c)git rm branches.txt
+git commit -m "I deleted the branches.txt file"
+d)git checkout HEAD^ branches.txt
+$ git commit -m "I restored the deleted branches.txt file"
+
+
+f)git remote add origin https://github.com/SarahKhaled/My-repo.git
+git remote
+git push  origin  master
+
+
+h)git branch README
+i)git checkout README
+git add README.md
+j)git commit -m "I added the README.md file to README branch"
+
+
+
+k)git checkout master
+git merge README
+
+git push -u origin master
+
+l)git add AllMyCommands.txt
+git commit -m "I added AllMyCommands.txt"
+git push -u origin master
+
